@@ -1,0 +1,11 @@
+{
+    "name": "Qwantify",
+    "version": "0.1",
+    "description": "Prune Qwant results!",
+    "permissions": ["https://*.qwant.com/*"],
+    "content_scripts": [{
+      "matches": ["https://*.qwant.com/*"],
+      "js": ["pruner.js"]
+    }],
+    "manifest_version": 2
+  }
